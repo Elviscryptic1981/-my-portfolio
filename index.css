@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    /* background:#95A08B */
+background-color: #ffffd5;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color:#7B857B;
+    font-size: 2em;
+    text-emphasis: none;
+    font-weight: 600px;
+}
+
+header .navbar{
+    position: relative;
+    display: flex;
+}
+
+header .navbar li{
+    list-style: none;
+    display: 30px;
+}
+
+header .navbar li a{
+    text-decoration: dotted;
+    color: #C9BDAA;
+    font-weight: 600;
+    padding: 10px;
+    transform: 0.3s;
+    font-size: 0.9em;
+}
+
+header .navbar li a:hover{
+    color: #95A08B;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .contentBox{
+    position: relative;
+    max-width: 700px;
+}
+
+.container .contentBox h2{
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: #687c54;
+    line-height: 1.3;
+}
+
+.container .contentBox h2 .name{
+    background:#D0B682 ;
+    color: #ffffd5;
+    padding: 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.container .contentBox p{
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: honeydew;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 28px;
+}
+
+.container .contentBox a{
+    text-decoration: none;
+    background: #D0B682;
+    color: #ffffd5;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
